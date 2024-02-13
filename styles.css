@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.board {
+    background-color: #bbada0;
+    width: 415px;
+    /* min-width: 424px; */
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tile {
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 100px;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+tr {
+    height: 100px;
+}
